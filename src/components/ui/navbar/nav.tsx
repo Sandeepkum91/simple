@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { Home, Star, Code, Image, Info, ShowerHeadIcon } from "lucide-react"
+import { Home, Star, Code,  Info, ShowerHeadIcon } from "lucide-react"
 import { AnimeNavBar } from "./anime-navbar"
 
 

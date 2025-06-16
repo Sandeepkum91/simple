@@ -1,10 +1,9 @@
 "use client";
 
-import { Box, ChartArea, Cuboid, Database, Lock } from "lucide-react";
-import { cn } from "@/lib/utils";
+
 import { SparklesText } from "@/src/components/ui/sparkles-text";
 import { ProejctLayoutGrid } from "./project";
-import { GlowingEffect } from "@/src/components/ui/glowing-effect-project";
+
 
 export default function ProjectSection() {
   return (

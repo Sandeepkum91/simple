@@ -39,6 +39,7 @@ const MediaItem = ({ item, className, onClick }: { item: MediaItemType, classNam
 
         return () => {
             if (videoRef.current) {
+                // eslint-disable-next-line react-hooks/exhaustive-deps
                 observer.unobserve(videoRef.current); // Clean up observer when component unmounts
             }
         };

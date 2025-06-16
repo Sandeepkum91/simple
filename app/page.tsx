@@ -1,7 +1,6 @@
 import GoogleGeminiEffectDemo from "./about/page";
 import LandingHero from "./hero/page";
 import TimelineDemo from "./experience/page";
-import GallerySection from "./gallery/page";
 import ProjectSection from "./project/page";
 import SkillIconCloud from "./skill/page";
 

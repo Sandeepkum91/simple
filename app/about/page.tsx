@@ -34,7 +34,7 @@ export default function GoogleGeminiEffectDemo() {
         title="Meet the Developer"
         description={
           <>
-            I'm a software engineer specializing in blockchain development, with
+            I&apos;m a software engineer specializing in blockchain development, with
             expertise in dApps, smart contracts, and secure Web3 integrations
             using Solidity, Web3.js, and Ethers.js. I build scalable,
             gas-optimized solutions on platforms like Ethereum. I also have
