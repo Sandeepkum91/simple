@@ -137,10 +137,10 @@ const SkeletonNine = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Funding Possibilities
+       Patriot Claim
       </p>
       <p className="font-normal text-base text-white">
-        Technologies: Nest.js, JavaScript, Firebase, PostgreSQL, GCP
+       Technologies: Nest.js, JavaScript, Firebase, PostgreSQL, GCP
       </p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         Patriot Claims is your trusted partner, dedicated to helping insurance

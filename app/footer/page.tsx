@@ -37,15 +37,15 @@ const navigation = {
             { name: "Learning", href: "" },
           ],
         },
-          // {
-          //   id: "designs",
-          //   name: "Designs",
-          //   items: [
-          //     { name: "Design", href: "" },
-          //     { name: "Components", href: "/components" },
-          //     { name: "Blogs", href: "/blogs" },
-          //   ],
-          // },
+        // {
+        //   id: "designs",
+        //   name: "Designs",
+        //   items: [
+        //     { name: "Design", href: "" },
+        //     { name: "Components", href: "/components" },
+        //     { name: "Blogs", href: "/blogs" },
+        //   ],
+        // },
         {
           id: "other",
           name: "Others",
@@ -95,8 +95,8 @@ export default function Footer() {
           maintainable, and future-ready solutions. My approach combines
           technical depth with a keen eye for user experience, allowing me to
           craft digital products that are both powerful and intuitive. Whether
-          it&apos;s developing blockchain ecosystems, mobile-first applications, or
-          complex web platforms, I am dedicated to delivering innovative
+          it&apos;s developing blockchain ecosystems, mobile-first applications,
+          or complex web platforms, I am dedicated to delivering innovative
           solutions that drive real-world impact.
         </p>
       </div>
@@ -139,7 +139,7 @@ export default function Footer() {
         <div className="flex flex-wrap items-center justify-center gap-6 gap-y-4 px-6">
           <Link
             aria-label="Logo"
-            href=""
+            href="mailto:prashantgangwar1001@gmail.com"
             rel="noreferrer"
             target="_blank"
             className={Underline}
@@ -149,15 +149,7 @@ export default function Footer() {
               className="h-5 w-5  text-slate-100"
             />
           </Link>
-          <Link
-            aria-label="Logo"
-            href=""
-            rel="noreferrer"
-            target="_blank"
-            className={Underline}
-          >
-            <DIcons.X className="h-5 w-5  text-slate-100" />
-          </Link>
+         
           <Link
             aria-label="Logo"
             href=""
@@ -167,18 +159,9 @@ export default function Footer() {
           >
             <DIcons.Instagram className="h-5 w-5 text-slate-100" />
           </Link>
-          {/* <Link
-            aria-label="Logo"
-            href="https://www.threads.net/designali.in"
-            rel="noreferrer"
-            target="_blank"
-            className={Underline}
-          >
-            <DIcons.Threads className="h-5 w-5" />
-          </Link> */}
           <Link
             aria-label="Logo"
-            href="  "
+            href="https://wa.me/"
             rel="noreferrer"
             target="_blank"
             className={Underline}
@@ -194,15 +177,6 @@ export default function Footer() {
           >
             <DIcons.GitLab className="h-5 w-5  text-slate-100" />
           </Link>
-          {/* <Link
-            aria-label="Logo"
-            href="https://www.facebook.com/designali.agency"
-            rel="noreferrer"
-            target="_blank"
-            className={Underline}
-          >
-            <DIcons.Facebook className="h-5 w-5" />
-          </Link> */}
           <Link
             aria-label="Logo"
             href=""
@@ -212,7 +186,6 @@ export default function Footer() {
           >
             <DIcons.LinkedIn className="h-5 w-5  text-slate-100" />
           </Link>
-        
         </div>
       </div>
 
